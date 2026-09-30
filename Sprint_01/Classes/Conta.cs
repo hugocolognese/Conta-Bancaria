@@ -9,7 +9,7 @@ namespace Sprint_01.Classes
     {
         public Conta()
         {
-            this.NumeroConta = "001";
+            this.NumeroAgencia = "0001";
             Conta.NumeroContaSequencial++;
         }
 
@@ -39,7 +39,7 @@ namespace Sprint_01.Classes
 
         public string GetCodigoBanco()
         {
-            return this.GetCodigoBanco();
+            return this.CodigoBanco;
         }
 
         public string GetNumeroAgencia()

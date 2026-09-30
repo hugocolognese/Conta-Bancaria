@@ -100,7 +100,8 @@ namespace Sprint_01.Classes
 
         private static void TelaBoasVindas(Pessoa pessoa)
         {
-            Console.WriteLine($"Seja Bem Vindo {pessoa.Nome}");
+            Console.WriteLine($"Seja Bem Vindo {pessoa.Nome} | Banco: {pessoa.Conta.GetCodigoBanco()} " +
+                $"| Agencia: {pessoa.Conta.GetNumeroAgencia()} | Conta: {pessoa.Conta.GetNumeroConta()}");
         }
 
         private static void TelaContaLogada(Pessoa pessoa)
